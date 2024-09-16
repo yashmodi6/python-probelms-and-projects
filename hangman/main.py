@@ -109,7 +109,7 @@ def display_word(word, guessed_indices):
     print()
 
 
-def is_word_guessed(word, guessed_indices):
+def is_word_guessed(word, guessed_indices) -> bool:
     return len(guessed_indices) == len(word)
 
 
